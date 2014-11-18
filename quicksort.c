@@ -28,7 +28,7 @@ void quicksort(int * array_to_sort, int low, int high)
                 return;
 
         /* 
-         * 在 [l + 1,h] 区间选取一个随机位置 index，
+         * 在 [l + 1, h] 区间选取一个随机位置 index，
          * 把本次排序的第一个位置的元素跟 index位置上的元素交换，
          * 避免每次排序 pivot 取的是最大值或最小值，即避免待排数值基本有序
          */
